@@ -20,7 +20,7 @@ It is built by Microsoft, hence is guaranteed to be stable.
 2. Create a script that handles saving by interacting with SaveManager's API. 
 3. Have the component that needs to be serialized inherit from SaveableMono instead of MonoBehaviour.
 4. Implement saving and loading logic for that component.
-5. See Example folder for more info.
+5. See Examples folder for more info.
 
 # Performance
 - Compared to Json.NET (10k iterations):
