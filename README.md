@@ -12,7 +12,7 @@ It has built-in safety code to ensure correct utilization of the library.
 
 # Why System.Text.Json?
 - System.Text.Json is a fully featured Json Serializer and Deserializer. It supports most data structures and fields, in contrast to Unity's JsonUtility which cannot handle those types.
-- It offers excellent performance compared to other C# Json Serializers, such as Json.NET and LitJson, only losing to Unity's JsonUtility.
+- It offers excellent performance compared to other C# Json Serializers, such as Json.NET and LitJson, only losing to JsonUtility.
 - It is built by Microsoft, hence is guaranteed to be stable.
 
 # How to use?
