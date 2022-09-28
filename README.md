@@ -40,7 +40,7 @@ Once Unity Engine updates their runtime to .NET 6, source generation mode will b
 
 Planned features:
 - Support for gameobjects that are dynamically constructed at runtime
-- Custom scene mapping that allows spitting save file into multiple smaller files
+- Scene mapping that allows spitting save file into multiple smaller files
 
 Known bugs:
 - none
