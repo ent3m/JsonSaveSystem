@@ -35,8 +35,8 @@ It has built-in safety code to ensure correct utilization of the library.
 3. ~3.1x more GC allocation during serialization (9.5MB vs 3MB)
 4. ~2.4x more GC allocation during deserialization (9.4MB vs 3.9MB)
 
-- Due to technical limitations in the Unity Engine, source generation mode is not available, and reflection mode is used.
-Once Unity Engine updates their runtime to .NET 6 and source generation mode is supported, performance should be on par with JsonUtility.
+- Due to technical limitations of the Unity Engine, source generation mode is not available, and reflection mode is used.
+Once Unity Engine updates their runtime to .NET 6, source generation mode will be supported, and performance should be on par with JsonUtility.
 
 Planned features:
 - Support for gameobjects that are dynamically constructed at runtime
