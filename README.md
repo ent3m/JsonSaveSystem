@@ -1,7 +1,7 @@
 # JsonSaveSystem
 JsonSaveSystem is a save system for Unity that uses the System.Text.Json namespace provided by .NET.
 It is designed to be versatile, easy to use, and easy to maintain.
-It has built-in safety code to ensure correct utilization.
+It has built-in safety code to ensure correct utilization of the library.
 
 # Features:
 Each component(script) has its own GUID. Each component is serialized separately.
