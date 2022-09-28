@@ -6,7 +6,7 @@ It has built-in safety code to ensure correct utilization of the library.
 # Features:
 - Each component(script) has its own GUID. Each component is serialized separately.
 - One gameobject can have multiple serialized components. These components can be of the same type.
-- This system saves objects by scene, meaning each scene can be loaded and unloaded individually.
+- The system saves objects by scene, meaning each scene can be loaded and unloaded individually.
 - The data structure saves all scenes into one file, making it simple to transfer and keep track of save data.
 - Data is serialized to Utf8 bytes, which allows encryption and modification before writing to file.
 
